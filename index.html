@@ -530,10 +530,17 @@
 
         <form class="modal-form">
         <label class="modal-form-field">
-          
-            <span class="modal-form-description">  Name</span>
+            <span class="modal-form-description">Name</span>
+
+            <div class="modal-form-input-wrapper">
+            <input type="text" name="user_name" class="modal-form-input" required 
+            pattern="^{a-zA-а-яА-Я}+$">
+            <svg class="modal-form-icon" >
+                <use href="./images/icons-optimized.svg#icon-black-human" width="12px" height="12px"></use>
+            </svg>
+        </div>
+       
            
-            <input type="name" name="user_name" class="modal-form-input" required pattern="^{a-zA-а-яА-Я}+$">
         </label>
         </form>
 
@@ -542,9 +549,15 @@
             <label class="modal-form-field">
                 
                 <span class="modal-form-description">Phone</span>
-               
+
+                <div class="modal-form-input-wrapper">
                 <input type="tel" name="user_phone_number" class="modal-form-input" required 
                 title="xxx-xxx-xx-xx">
+                <svg class="modal-form-icon" >
+                    <use href="./images/icons-optimized.svg#icon-modal-window-phone" width="13px" height="13px"></use>
+                </svg>
+                </div>
+
             </label>
             </form>
 
@@ -554,14 +567,17 @@
                 <label class="modal-form-field">
                    
                     <span class="modal-form-description">Email</span>
-                   
+                    <div class="modal-form-input-wrapper">
                     <input type="email" name="" class="modal-form-input" required>
-                
+                <svg class="modal-form-icon" >
+                    <use href="./images/icons-optimized.svg#icon-email-modal-window" width="20px" height="20px"></use>
+                </svg>
                     <span class="modal-form-description">Comment</span>
                     <textarea name="user_message" 
                     class="modal-form-message"
                     placeholder="Text input"
             ></textarea>
+        </div>
         </label>
 
 
