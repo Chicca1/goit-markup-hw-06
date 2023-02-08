@@ -1110,6 +1110,10 @@ color: rgba(117, 117, 117, 0.5);
     overflow: hidden;
       }
 
+    .form-checkbox a {
+        color: #4D5AE5;
+    }
+
 
 .checkbox-icon {
     height: 16px;
@@ -1130,7 +1134,9 @@ color: rgba(117, 117, 117, 0.5);
     background-color: var(--colour-change);
     background-image: url(../images/icon-checkbox.svg);
     color: #F4F4FD;
-    background-size: 90% 80%;
+    background-size: 10px 8px;
+    background-position-x: center;
+    background-position-y: center;
     background-origin: border-box;
     border: 1.25px solid #404BBF;
 }
