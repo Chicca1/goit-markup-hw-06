@@ -520,7 +520,7 @@
     <div class="modal-window" >
         <button data-modal-close  type="button" class="modal-close-button" >
             <svg class="modal-close-icon"> 
-                <use href="./images/icons-optimized.svg#icon-close-black-cross" width="7px" height="7px"></use>
+                <use href="./images/icons-optimized.svg#icon-close-black-cross" width="8px" height="8px"></use>
             </svg>
         </button>
 
@@ -530,9 +530,11 @@
         <label class="modal-form-field">
             <span class="modal-form-description">Name</span>
 
+
+
             <div class="modal-form-input-wrapper">
-            <input type="text" name="user_name" class="modal-form-input" required 
-            pattern="^{a-zA-а-яА-Я}+$">
+            <input type="text" name="user_name" class="modal-form-input"  pattern="^{a-zA-а-яА-Я}+$" required >
+           
             <svg class="modal-form-icon" >
                 <use href="./images/icons-optimized.svg#icon-black-human" width="12px" height="12px"></use>
             </svg>
@@ -544,13 +546,13 @@
 
 
         <form class="modal-form">
-            <label class="modal-form-field">
+            <label class="modal-form-field ">
                 
                 <span class="modal-form-description">Phone</span>
 
                 <div class="modal-form-input-wrapper">
-                <input type="tel" name="user_phone_number" class="modal-form-input" required 
-                title="xxx-xxx-xx-xx">
+                <input type="tel" name="user_phone_number" class="modal-form-input"   title="xxx-xxx-xx-xx" required >
+               
                 <svg class="modal-form-icon" >
                     <use href="./images/icons-optimized.svg#icon-modal-window-phone" width="13px" height="13px"></use>
                 </svg>
@@ -566,15 +568,16 @@
                    
                     <span class="modal-form-description">Email</span>
                     <div class="modal-form-input-wrapper">
-                    <input type="email" name="" class="modal-form-input" required>
+                    <input type="email" name="email" class="modal-form-input" required>
                 <svg class="modal-form-icon" >
                     <use href="./images/icons-optimized.svg#icon-Vector-4" width="15px" height="12px"></use>
                 </svg>
 
+
                     <span class="modal-form-description">Comment</span>
                     <textarea name="user_message" 
                     class="modal-form-message"
-                    placeholder="Text input"
+                    placeholder="Text input" required
                    ></textarea>
         </div>
         </label>
@@ -582,8 +585,8 @@
 
         
         <div class="form-checkbox">
-        <label for="user-policy" class="modal-form-description label-checkbox ">
-            <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check">
+        <label for="user-policy" class="modal-form-description label-checkbox">  
+            <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check" required>
             <span class="checkbox-icon"></span>
             &nbsp;&nbsp;I accept the terms and conditions of the&nbsp;&nbsp;<a href="#">Privacy Policy</a>
         </label>
