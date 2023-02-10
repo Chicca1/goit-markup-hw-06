@@ -557,7 +557,7 @@ margin-bottom: 16px;
 display: flex;
 padding: 0px;
 gap: 16px;
-margin-right: 80px;
+
 
 }
 
@@ -589,6 +589,10 @@ transition-timing-function: (var(--animation-timing-function));}
     display: flex;
 }
 
+.contact-form-container {
+margin-left: 80px;
+}
+
 
 .contact-form-btn-wrapper {
 display: flex;
@@ -616,7 +620,6 @@ padding: 0;
 
 .contact-form-input {
     display: flex;
-    
     width: 264px;
     height: 40px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -627,7 +630,6 @@ padding: 0;
     color: #FFFFFF;
     font-size: 12px;
     line-height: 2;
-    margin-left: 80px;
     outline: none;
     transition-property: border-color;
     transition-duration: var(--animation-duration);
@@ -646,7 +648,7 @@ padding: 0;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 16px;
-    margin-left: 80px;
+    
    
    
 }
